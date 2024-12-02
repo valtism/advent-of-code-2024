@@ -2,13 +2,13 @@ import run from "aocrunner";
 
 const parseInput = (rawInput: string) => rawInput;
 
-const part1 = (rawInput: string) => {
+function part1 (rawInput: string) {
   const input = parseInput(rawInput);
 
   return;
 };
 
-const part2 = (rawInput: string) => {
+function part2 (rawInput: string) {
   const input = parseInput(rawInput);
 
   return;
@@ -19,7 +19,7 @@ run({
     tests: [
       // {
       //   input: ``,
-      //   expected: "",
+      //   expected: null,
       // },
     ],
     solution: part1,
@@ -28,7 +28,7 @@ run({
     tests: [
       // {
       //   input: ``,
-      //   expected: "",
+      //   expected: null,
       // },
     ],
     solution: part2,

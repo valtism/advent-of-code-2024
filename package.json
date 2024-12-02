@@ -4,7 +4,7 @@
   "description": "Advent of Code 2024 - solutions",
   "type": "module",
   "scripts": {
-    "start": "aocrunner day",
+    "dev": "aocrunner day",
     "build": "aocrunner build",
     "format": "prettier -w src",
     "update:readme": "aocrunner update:readme"
